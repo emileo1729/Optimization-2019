@@ -208,7 +208,7 @@ where,
     \begin{align*}
         & \lambda g(x_{1}) + (1- \lambda)g(x_{2}) - g(\lambda x_{1} + (1- \lambda)x_{2}) \\
         &= \lambda || x_{1} - c ||^2 + (1 - \lambda)|| x_{2} - c ||^2 - || \lambda x_{1} + (1- \lambda)x_{2} - c ||^2 \\
-        &= \lambda(1- \lambda)\{|| x_{1} - c ||^2 + || x_{2} - c ||^2 + 2|| x_{1} - c |||| x_{2} - c ||\}\\
+        &= \lambda(1- \lambda)\{|| x_{1} - c ||^2 + || x_{2} - c ||^2 - 2|| x_{1} - c |||| x_{2} - c ||\}\\
         &= \lambda(1- \lambda)\{|| x_{1} - c || - || x_{1} - c || \}^2 \\
         &\geq 0
     \end{align*}
